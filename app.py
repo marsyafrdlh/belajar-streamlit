@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-import torch
+#import torch
 import numpy as np
 #import cv2
 
