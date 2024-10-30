@@ -15,15 +15,6 @@ def load_model():
     model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5s.pt', force_reload=True)
     return model
 
-    import sys
-sys.path.insert(0, './yolov5')  # path ke YOLOv5
-from models.common import DetectMultiBackend
-
-def load_model():
-    model = DetectMultiBackend('./yolov5/yolov5s.pt')  # ganti dengan path yang benar
-    return model
-
-
 # Object Detection function
 def detect_objects(image, model):
     # Convert image to numpy array
