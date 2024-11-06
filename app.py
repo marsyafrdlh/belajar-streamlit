@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
-#import torch
+import torch
 import numpy as np
-#import cv2
+import cv2
 
 import ssl
 from urllib.request import urlopen
